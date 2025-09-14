@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9a59a;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor centrado */
+.contenedor {
+    background: #ff99cc;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(240, 57, 188, 0.98);
+    text-align: center;
+    width: 350px;
+
+    justify-content: center;
+}
+
+h1 {
+    color: #7c0808;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    height: 60%;
+}
+
+/* Input y botón */
+input {
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #ba0b51;
+    border-radius: 8px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #fa5f49;
+    color: #171515;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    justify-content: center;
+    background: #e96f5e;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    width: 20%;
+}
+
+.item {
+    background: #fa5f49;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.item:hover {
+    background: #e96f5e;
+}
+
+.rojo {
+    color: #322a2a;
+    font-weight: bold;
+}
+
